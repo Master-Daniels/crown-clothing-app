@@ -1,0 +1,15 @@
+{
+  "name": "crown-clothing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm run start",
+    "install": "cd server && npm run install",
+    "build": "cd server && npm run build",
+    "heroku-postbuild": "cd server && npm run heroku-postbuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

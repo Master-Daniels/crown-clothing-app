@@ -1,0 +1,5 @@
+# misc
+.env
+
+# general
+/node_modules
