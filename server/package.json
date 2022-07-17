@@ -8,12 +8,12 @@
   "description": "Server For the Cloth Place",
   "main": "server.js",
   "scripts": {
-    "client": "cd ../client && npm start",
-    "server": "nodemon server.js --ignore client",
-    "build": " cd ../client && npm run build",
+    "client": "cd ../Client && npm start",
+    "server": "nodemon server.js --ignore Client",
+    "build": " cd ../Client && npm run build",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node server.js",
-    "build-client": "echo $PWD && cd ../client && npm install && npm run build",
+    "build-client": "echo $PWD && cd ../Client && npm install && npm run build",
     "heroku-postbuild": "npm run build-client"
   },
   "allowedHosts": "all",
