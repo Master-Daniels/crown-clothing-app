@@ -8,8 +8,8 @@
     "npm": "8.3.1"
   },
   "scripts": {
-    "start": "cd server && npm run start",
-    "install": "cd server && npm run install",
+    "start": "cd server && npm start",
+    "install": "cd server && npm install",
     "build": "cd server && npm run build",
     "heroku-postbuild": "cd server && npm run heroku-postbuild"
   },
