@@ -13,7 +13,7 @@
     "build": " cd ../client && npm run build",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node server.js",
-    "build-client": "cd ../client && npm install && npm run build",
+    "build-client": "echo $PWD && cd ../client && npm install && npm run build",
     "heroku-postbuild": "npm run build-client"
   },
   "allowedHosts": "all",
